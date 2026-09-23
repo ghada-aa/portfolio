@@ -126,8 +126,9 @@ header {
 
 
 .about {
-        height: 60vh;
+        height: fit-content;
         display: flex;
+        margin: 40px 0px;
 
         align-items: center;
         justify-content: space-evenly;
@@ -196,12 +197,12 @@ header {
         }
 }
 .skills {
-    height: 30vh;
+    height: fit-content;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
+    margin: 40px 0px;
     .diva {
          display: flex;
          flex-direction: column;
@@ -231,7 +232,7 @@ header {
         }
         .skill {
             border: 1px solid gray;
-            padding: 12px 30px;
+            padding: 10px 40px;
             border-radius: 30px;
             display: flex;
             justify-content: center;
@@ -243,7 +244,7 @@ header {
                 font-size: 18px;
             }
             i {
-                font-size: 34px;
+                font-size: 24px;
             }
             .icon1 {
                 color: orangered;
@@ -273,7 +274,7 @@ header {
 
 
 .projects {
-    height: 60vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -304,7 +305,6 @@ header {
             display: flex;
             flex-direction: column;
             border-radius: 16px;
-            width: 100% / 3;
             .info {
                 padding: 10px 20px 20px;
                 display: flex;
@@ -397,6 +397,9 @@ header {
             font-size: 20px;
         }
     }
+    .skills {
+        margin: 0px 50px;
+    }
     .skills .diva .taps {
         gap: 15px;
         .skill {
@@ -449,10 +452,11 @@ header {
 }
 .about {
         flex-direction: column;
-        padding: 40px 20px;
-        height: 84vh;
+        padding: 0px;
+        height: auto;
+        margin: 0px;
         .left-about {
-            padding-left: 0;
+            padding-right: 0;
             border-right: none;
             border-bottom: 2px solid rgba(128, 128, 128, 0.151);
             h2 {
@@ -559,6 +563,8 @@ header {
     }
 }
 .about {
+        margin: 0px 50px;
+
         .right-about {
             h3 {
                 font-size: 22px;
@@ -582,7 +588,7 @@ header {
             .all-sec .sec::before {
                 content: "";
                 position: absolute;
-                left: -15px;
+                left: -14px;
                 top: 15%;
                 width: 8px;
                 height: 8px;
@@ -605,6 +611,15 @@ header {
         .projects {
         height: fit-content;
         margin: 30px 50px;
+        .headers {
+            align-items: center;
+            h2 {
+                font-size: 20px;
+            }
+            h4 {
+                font-size: 14px;
+            }
+        }
         .cards {
             grid-template-columns: 1fr;
         }
@@ -655,8 +670,9 @@ header {
 }
 .about {
         .left-about {
+            padding: 0;
             p {
-                font-size: 14px;
+                font-size: 13px;
             }
             h2 {
                 font-size: larger;
@@ -681,4 +697,5 @@ header {
             }
         }
     }
+    
 }
