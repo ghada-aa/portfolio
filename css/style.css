@@ -54,7 +54,7 @@ header {
 }
 
 .hero-sec {
-    background-image: url("imgs/hero.jpg");
+    background-image: url("../imgs/hero.jpg");
     height: 92vh;
     display: flex;
     justify-content: space-evenly;
